@@ -1,6 +1,6 @@
 # npmtest-s3fs
 
-#### test coverage for  [s3fs (v2.5.0)](http://github.com/RiptideElements/s3fs)  [![npm package](https://img.shields.io/npm/v/npmtest-s3fs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-s3fs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-s3fs.svg)](https://travis-ci.org/npmtest/node-npmtest-s3fs)
+#### basic test coverage for  [s3fs (v2.5.0)](http://github.com/RiptideElements/s3fs)  [![npm package](https://img.shields.io/npm/v/npmtest-s3fs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-s3fs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-s3fs.svg)](https://travis-ci.org/npmtest/node-npmtest-s3fs)
 
 #### Implementation of Node.JS FS interface using Amazon Simple Storage Service (S3).
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-s3fs/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-s3fs/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-s3fs/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-s3fs/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-s3fs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-s3fs/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-s3fs/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-s3fs/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-s3fs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-s3fs/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-s3fs/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-s3fs/build/coverage.html/index.html)
 
@@ -106,7 +106,8 @@
         "test": "mocha --check-leaks --recursive --timeout=25000 test",
         "test-ci": "npm run lint && npm run security && npm run cover"
     },
-    "version": "2.5.0"
+    "version": "2.5.0",
+    "bin": {}
 }
 ```
 
